@@ -1,0 +1,83 @@
+/* TAGs*/
+t1{
+    font-size: 30px;
+    font-style: initial;
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 1px 1px #111111;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    font-style: arial;
+}
+
+body {
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #35b8b0;
+    height: 80px;
+    padding: 20px ;
+}
+
+footer{
+    clear: both;
+    background-color: #35b8b0;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* IDs*/
+#principal{
+    /*background-image: url('nomeimagem.jpg');
+    background-size: 100%;*/
+    clear: both;
+    min-height: 400px;
+    padding: 100px 0 0 0;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    margin-top: 10px;
+    float: right;
+}
+
+#menu a{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover{
+    background-color: black;
+    color: #35b8b0;
+}
+
+/* class*/
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 0 100px 0;
+}
